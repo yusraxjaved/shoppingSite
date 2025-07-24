@@ -1,0 +1,6 @@
+    :where([class^="ri-"])::before { content: "\f3c2"; }
+        .search-input:focus { outline: none; }
+        .newsletter-input:focus { outline: none; }
+        .category-card:hover { transform: scale(1.05); transition: transform 0.3s ease; }
+        .product-card:hover { transform: translateY(-5px); transition: transform 0.3s ease; }
+   

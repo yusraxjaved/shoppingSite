@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothique - Modern Fashion Shopping</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="bg-white">
+    <header class="fixed w-full top-0 bg-white shadow-sm z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <h1 class="text-3xl font-['Pacifico'] text-primary">Clothique</h1>
+                <div class="flex items-center space-x-8">
+                    <div class="relative">
+                        <input type="text" placeholder="Search products..." class="search-input w-64 px-4 py-2 border border-gray-200 rounded-button text-sm">
+                        <button class="absolute right-3 top-1/2 transform -translate-y-1/2">
+                            <i class="ri-search-line text-gray-400"></i>
+                        </button>
+                    </div>
+                    <nav class="hidden md:flex space-x-6">
+                        <a href="#" class="text-gray-600 hover:text-primary transition-colors">Women</a>
+                        <a href="#" class="text-gray-600 hover:text-primary transition-colors">Men</a>
+                        <a href="#" class="text-gray-600 hover:text-primary transition-colors">Accessories</a>
+                        <a href="#" class="text-gray-600 hover:text-primary transition-colors">Sale</a>
+                    </nav>
+                    <div class="flex items-center space-x-4">
+                        <button class="w-10 h-10 flex items-center justify-center text-gray-600 hover:text-primary transition-colors">
+                            <i class="ri-user-line text-xl"></i>
+                        </button>
+                        <button class="w-10 h-10 flex items-center justify-center text-gray-600 hover:text-primary transition-colors">
+                            <i class="ri-shopping-bag-line text-xl"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-20">
+        <section class="relative h-[600px] bg-fixed bg-cover bg-center" style="background-image: url('https://readdy.ai/api/search-image?query=modern%20fashion%20photography%20with%20soft%20pastel%20tones%2C%20featuring%20a%20stylish%20model%20wearing%20elegant%20summer%20clothes%20against%20a%20minimalist%20light%20background%20with%20soft%20natural%20lighting%2C%20professional%20high-end%20commercial%20photography&width=1920&height=800&seq=1&orientation=landscape')">
+            <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+            <div class="container mx-auto px-6 h-full flex items-center">
+                <div class="max-w-2xl text-white relative">
+                    <h2 class="text-5xl font-light mb-6">Summer Collection 2025</h2>
+                    <p class="text-xl mb-8 opacity-90">Discover our latest collection of elegant and comfortable pieces designed for the modern lifestyle.</p>
+                    <button class="bg-primary text-white px-8 py-3 !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap">Shop Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl text-center mb-12">Shop by Category</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="category-card bg-white rounded-lg overflow-hidden shadow-sm transition-all">
+                        <div class="h-80 relative overflow-hidden">
+                            <img src="https://readdy.ai/api/search-image?query=elegant%20womens%20fashion%20clothing%20collection%20display%20with%20soft%20lighting%2C%20minimalist%20background%2C%20professional%20product%20photography&width=400&height=500&seq=2&orientation=portrait" alt="Women's Fashion" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
+                                <h3 class="text-white text-2xl font-light">Women's Fashion</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-card bg-white rounded-lg overflow-hidden shadow-sm transition-all">
+                        <div class="h-80 relative overflow-hidden">
+                            <img src="https://readdy.ai/api/search-image?query=modern%20mens%20fashion%20clothing%20collection%20display%20with%20soft%20lighting%2C%20minimalist%20background%2C%20professional%20product%20photography&width=400&height=500&seq=3&orientation=portrait" alt="Men's Fashion" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
+                                <h3 class="text-white text-2xl font-light">Men's Fashion</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-card bg-white rounded-lg overflow-hidden shadow-sm transition-all">
+                        <div class="h-80 relative overflow-hidden">
+                            <img src="https://readdy.ai/api/search-image?query=fashion%20accessories%20collection%20display%20with%20soft%20lighting%2C%20minimalist%20background%2C%20professional%20product%20photography&width=400&height=500&seq=4&orientation=portrait" alt="Accessories" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center">
+                                <h3 class="text-white text-2xl font-light">Accessories</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl text-center mb-12">New Arrivals</h2>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div class="product-card bg-white rounded-lg overflow-hidden shadow-sm transition-all">
+                        <div class="h-80 relative overflow-hidden">
+                            <img src="https://readdy.ai/api/search-image?query=elegant%20summer%20dress%20on%20white%20background%2C%20professional%20product%20photography%20with%20soft%20lighting&width=400&height=500&seq=5&orientation=portrait" alt="Summer Dress" class="w-full h-full object-cover">
+                            <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent opacity-0 hover:opacity-100 transition-opacity">
+                                <button class="w-full bg-primary text-white py-2 !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-lg mb-2">Floral Summer Dress</h3>
+                            <p class="text-primary font-medium">$89.99</p>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card bg-white rounded-lg overflow-hidden shadow-sm transition-all">
+                        <div class="h-80 relative overflow-hidden">
+                            <img src="https://readdy.ai/api/search-image?query=elegant%20blouse%20on%20white%20background%2C%20professional%20product%20photography%20with%20soft%20lighting&width=400&height=500&seq=6&orientation=portrait" alt="Elegant Blouse" class="w-full h-full object-cover">
+                            <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent opacity-0 hover:opacity-100 transition-opacity">
+                                <button class="w-full bg-primary text-white py-2 !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-lg mb-2">Silk Blouse</h3>
+                            <p class="text-primary font-medium">$69.99</p>
+                        </div>
+                    </div>
+                    <div class="product-card bg-white rounded-lg overflow-hidden shadow-sm transition-all">
+                        <div class="h-80 relative overflow-hidden">
+                            <img src="https://readdy.ai/api/search-image?query=mens%20casual%20shirt%20on%20white%20background%2C%20professional%20product%20photography%20with%20soft%20lighting&width=400&height=500&seq=7&orientation=portrait" alt="Men's Shirt" class="w-full h-full object-cover">
+                            <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent opacity-0 hover:opacity-100 transition-opacity">
+                                <button class="w-full bg-primary text-white py-2 !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-lg mb-2">Casual Linen Shirt</h3>
+                            <p class="text-primary font-medium">$59.99</p>
+                        </div>
+                    </div>
+                    <div class="product-card bg-white rounded-lg overflow-hidden shadow-sm transition-all">
+                        <div class="h-80 relative overflow-hidden">
+                            <img src="https://readdy.ai/api/search-image?query=leather%20handbag%20on%20white%20background%2C%20professional%20product%20photography%20with%20soft%20lighting&width=400&height=500&seq=8&orientation=portrait" alt="Leather Bag" class="w-full h-full object-cover">
+                            <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent opacity-0 hover:opacity-100 transition-opacity">
+                                <button class="w-full bg-primary text-white py-2 !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap">Quick View</button>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="text-lg mb-2">Leather Handbag</h3>
+                            <p class="text-primary font-medium">$129.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-softYellow bg-opacity-30">
+            <div class="container mx-auto px-6">
+                <div class="max-w-2xl mx-auto text-center">
+                    <h2 class="text-3xl mb-6">Subscribe to Our Newsletter</h2>
+                    <p class="text-gray-600 mb-8">Stay updated with our latest collections and exclusive offers.</p>
+                    <div class="flex gap-4 max-w-md mx-auto">
+                        <input type="email" placeholder="Enter your email" class="newsletter-input flex-1 px-4 py-3 border border-gray-200 !rounded-button text-sm">
+                        <button class="bg-primary text-white px-8 py-3 !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white border-t border-gray-100">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl mb-4">About Us</h3>
+                    <p class="text-gray-600">Clothique brings you the latest fashion trends with comfort and style.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-600 hover:text-primary">Shop Women</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-primary">Shop Men</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-primary">Accessories</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-primary">Sale</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl mb-4">Customer Service</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-600 hover:text-primary">Contact Us</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-primary">Shipping Policy</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-primary">Returns & Exchanges</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-primary">FAQs</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl mb-4">Connect With Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 flex items-center justify-center text-gray-600 hover:text-primary transition-colors">
+                            <i class="ri-facebook-fill text-xl"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center text-gray-600 hover:text-primary transition-colors">
+                            <i class="ri-instagram-fill text-xl"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center text-gray-600 hover:text-primary transition-colors">
+                            <i class="ri-twitter-fill text-xl"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center text-gray-600 hover:text-primary transition-colors">
+                            <i class="ri-pinterest-fill text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-100 mt-12 pt-8 text-center">
+                <p class="text-gray-600">&copy; 2025 Clothique. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
